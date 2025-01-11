@@ -106,8 +106,8 @@ main {
     flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
-/* Madagascar Layout */
-.card .madagascar {
+/* Idaho Layout */
+.card .Idaho {
     display: flex;
     flex-direction: column; /* Align image and text side by side */
     justify-content: center; /* Center the content horizontally */
@@ -116,27 +116,27 @@ main {
     text-align: left; /* Align text to the left */
 }
 
-.card .madagascar img {
+.card .Idaho img {
     width: 200px; /* Adjust image size */
     height: auto;
     border-radius: 8px;
     flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
-.card .madagascar .description {
+.card .Idaho .description {
     max-width: 600px; /* Limit the width of the description */
     margin-left: 1rem; /* Space between the text and image */
 }
 
-/* Madagascar Text */
-.card .madagascar h2 {
+/* Idaho Text */
+.card .Idaho h2 {
     margin-top: 0;
     font-size: 1.5rem;
     color: #002855; /* Header blue for consistency */
     font-weight: bold;
 }
 
-.card .madagascar p {
+.card .Idaho p {
     margin: 0;
 }
 
