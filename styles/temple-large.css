@@ -1,0 +1,15 @@
+/* Larger screen styles */
+@media (min-width: 768px) {
+  .gallery {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  nav ul {
+      text-align: left;
+  }
+
+  nav ul li {
+      display: inline-block;
+      margin: 0 20px;
+  }
+}
